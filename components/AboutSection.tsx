@@ -71,7 +71,7 @@ const skills = [
     {
         skill: 'GitHub',
         icon: <SiGithub />,
-        color: 'bg-stone-900'
+        color: 'bg-zinc-900'
     },
 ]
 
