@@ -21,30 +21,12 @@ const Footer = () => {
                     className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
                     size={30}
                     />
-                </a>
+                </a> 
                 <a 
-                href="https://youtube.com/EmmGlezz"
-                rel='noreferrer'
-                target='_blank'>
-                    <AiOutlineTwitter
-                    className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
-                    size={30}
-                    />
-                </a>
-                <a 
-                href="https://github.com/EmmGlezz"
+                href="https://www.linkedin.com/in/emilianoglez/"
                 rel='noreferrer'
                 target='_blank'>
                     <AiOutlineLinkedin
-                    className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
-                    size={30}
-                    />
-                </a>
-                <a 
-                href="https://github.com/EmmGlezz"
-                rel='noreferrer'
-                target='_blank'>
-                    <AiOutlineYoutube
                     className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
                     size={30}
                     />
