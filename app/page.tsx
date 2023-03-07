@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection"
 import AboutSection from "@/components/AboutSection"
 import ProjectsSection from "@/components/ProjectsSection"
+import ContactSection from "@/components/ContactSection"
 
 export const metadata = {
     title: 'Emiliano González',
@@ -16,6 +17,7 @@ export default function Home() {
     <HeroSection />
     <AboutSection />
     <ProjectsSection />
+    <ContactSection />
    </main>
   )
 }
