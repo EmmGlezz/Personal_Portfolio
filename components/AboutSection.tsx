@@ -1,5 +1,5 @@
 import React from 'react'
-import {SiHtml5, SiCss3, SiJavascript, SiPython, SiReact, SiTailwindcss, SiBootstrap, SiNodedotjs, SiExpress, SiNextdotjs, SiTypescript, SiMongodb, SiGit, SiGithub} from 'react-icons/si'
+import {SiHtml5, SiCss3, SiJavascript, SiPython, SiReact, SiTailwindcss, SiBootstrap, SiMaterialui, SiNodedotjs, SiExpress, SiNextdotjs, SiTypescript, SiMongodb, SiGit, SiGithub, } from 'react-icons/si'
 import Image from 'next/image'
 
 const skills = [
@@ -37,6 +37,11 @@ const skills = [
         skill: 'Bootstrap',
         icon: <SiBootstrap />,
         color: 'bg-violet-700'
+    },
+    {
+        skill: 'Material UI',
+        icon: <SiMaterialui />,
+        color: 'bg-blue-600'
     },
     {
         skill: 'Node.js',
