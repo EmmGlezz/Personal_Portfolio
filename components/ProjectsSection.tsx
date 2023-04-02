@@ -6,6 +6,40 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 import { SiBootstrap, SiExpress, SiJavascript, SiMaterialui, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 const dummyData = [
+    {
+		name: "GPTrip",
+		description: "GPTrip is an AI-powered travel recommendation app that uses the OpenAI API to suggest personalized travel destinations based on user preferences. Powered by React and Node.js, the app also integrates the Unsplash API to display beautiful images of the suggested destinations. GPTrip is currently in beta and is constantly being improved with new features and enhancements.",
+		image: "/GPTrip.png",
+		github_link: "https://github.com/EmmGlezz/GPTrip",
+		demo_link: "https://gptrip.vercel.app/",
+        stack: [
+            {
+                skill: 'JavaScript',
+                icon: <SiJavascript />,
+                color: 'bg-yellow-500'
+            },
+            {
+                skill: 'React',
+                icon: <SiReact />,
+                color: 'bg-sky-500'
+            },
+            {
+                skill: 'Tailwind',
+                icon: <SiTailwindcss />,
+                color: 'bg-teal-500'
+            },
+            {
+                skill: 'Node.js',
+                icon: <SiNodedotjs />,
+                color: 'bg-green-600'
+            },
+            {
+                skill: 'Express',
+                icon: <SiExpress />,
+                color: 'bg-neutral-600'
+            },
+        ]
+	},
 	{
 		name: "T-MINUS",
 		description: "T-MINUS is a web app using React and an API to show upcoming rocket launches with filters for date, location, and rocket type. It has a user-friendly interface and offers detailed launch information.",
