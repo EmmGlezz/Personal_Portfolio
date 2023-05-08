@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection"
 import AboutSection from "@/components/AboutSection"
 import ProjectsSection from "@/components/ProjectsSection"
 import ContactSection from "@/components/ContactSection"
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
     title: 'Emiliano González',
@@ -18,6 +19,7 @@ export default function Home() {
     <AboutSection />
     <ProjectsSection />
     <ContactSection />
+    <Analytics />
    </main>
   )
 }
